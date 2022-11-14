@@ -16,8 +16,8 @@ btn.addEventListener('click', function handleClick() {
   }
 });
 
-const toggleButton = document.querySelector(".toggle__button")[0];
-const navbarMenu = document.querySelector(".navbar__menu")[0];
+const toggleButton = document.getElementsByClassName("toggle__button")[0];
+const navbarMenu = document.getElementsByClassName("navbar__menu")[0];
 
 toggleButton.addEventListener('click',()=>{
   navbarMenu.classList.toggle('active')

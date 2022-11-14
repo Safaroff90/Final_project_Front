@@ -576,9 +576,13 @@ img {
 
 .toggle__button{
   position: absolute;
-  top: 0;
+  top: 2rem;
   right: 15rem;
   display: none;
+}
+.navbar__menu.active{
+  display: block;
+  width: 50%;
 }
 
 @media (max-width: 1024px) {
@@ -587,6 +591,9 @@ img {
   }
   .navbar__menu {
     display: none;
+  }
+  .navbar{
+    min-height: 100px;
   }
   .header__cart {
     display: none;
